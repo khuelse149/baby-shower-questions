@@ -1,0 +1,740 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Before We Plan a Thing</title>
+<meta name="description" content="Fifty-two questions about your baby shower, so the day we throw is the one you'd have thrown yourself.">
+<meta name="robots" content="noindex">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💙</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Nunito:ital,wght@0,400;0,600;0,700;1,400&display=swap">
+<style>
+:root{
+  --paper:#F4F9FF;
+  --ink:#12304E;
+  --ink-soft:#4F6A88;
+  --ink-faint:#8AA0B8;
+  --field:#FFFFFF;
+  --rule:#D6E4F2;
+  --blue:#2F7FD1;
+  --blue-deep:#1B4F86;
+  --c-blue:#E1EFFC;   --e-blue:#2F7FD1;
+  --c-butter:#FFF2D3; --e-butter:#D9930C;
+  --c-mint:#DCF2EA;   --e-mint:#219877;
+  --c-blush:#FFE6DE;  --e-blush:#DE6650;
+  --shadow:0 2px 0 rgba(18,48,78,.06), 0 12px 28px -18px rgba(18,48,78,.5);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#0E1725;
+    --ink:#E9F1FA;
+    --ink-soft:#AFC3D9;
+    --ink-faint:#7B90A8;
+    --field:#1A2636;
+    --rule:#2B3C50;
+    --blue:#7BB5EB;
+    --blue-deep:#A8D0F5;
+    --c-blue:#16283D;   --e-blue:#7BB5EB;
+    --c-butter:#2C2617; --e-butter:#E2B65F;
+    --c-mint:#142D27;   --e-mint:#67C4A5;
+    --c-blush:#31201C;  --e-blush:#ED9480;
+    --shadow:0 2px 0 rgba(0,0,0,.25), 0 14px 30px -20px #000;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0E1725;
+  --ink:#E9F1FA;
+  --ink-soft:#AFC3D9;
+  --ink-faint:#7B90A8;
+  --field:#1A2636;
+  --rule:#2B3C50;
+  --blue:#7BB5EB;
+  --blue-deep:#A8D0F5;
+  --c-blue:#16283D;   --e-blue:#7BB5EB;
+  --c-butter:#2C2617; --e-butter:#E2B65F;
+  --c-mint:#142D27;   --e-mint:#67C4A5;
+  --c-blush:#31201C;  --e-blush:#ED9480;
+  --shadow:0 2px 0 rgba(0,0,0,.25), 0 14px 30px -20px #000;
+}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:"Nunito","Helvetica Neue",Arial,sans-serif;
+  font-size:17px;
+  line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+  padding-bottom:6.5rem;
+}
+.wrap{max-width:44rem;margin:0 auto;padding:clamp(1.75rem,5vw,3rem) clamp(1rem,4vw,1.5rem) 2rem}
+
+/* ---------- hero ---------- */
+.hero{
+  position:relative;
+  background:var(--c-blue);
+  border:2px solid var(--e-blue);
+  border-radius:28px;
+  padding:clamp(1.6rem,5vw,2.6rem);
+  overflow:hidden;
+  box-shadow:var(--shadow);
+}
+.hero-deco{position:absolute;inset:0;pointer-events:none;opacity:.5}
+.hero-deco i{position:absolute;display:block;border-radius:50%}
+.hero-deco i:nth-child(1){width:88px;height:88px;background:var(--e-butter);opacity:.28;right:-22px;top:-26px}
+.hero-deco i:nth-child(2){width:46px;height:46px;background:var(--e-mint);opacity:.32;right:64px;bottom:-16px}
+.hero-deco i:nth-child(3){width:24px;height:24px;background:var(--e-blush);opacity:.4;right:132px;top:26px}
+h1{
+  position:relative;
+  font-family:"Bricolage Grotesque","Helvetica Neue",Arial,sans-serif;
+  font-weight:800;
+  font-size:clamp(2.15rem,7.5vw,3.4rem);
+  line-height:1;
+  letter-spacing:-.02em;
+  margin:.35rem 0 .7rem;
+  text-wrap:balance;
+}
+h1 em{font-style:normal;color:var(--e-blue)}
+.hero p{position:relative;margin:0;color:var(--ink-soft);font-size:1.06rem;max-width:30rem}
+.tag{
+  position:relative;
+  display:inline-block;
+  font-family:"Bricolage Grotesque",sans-serif;
+  font-weight:700;
+  font-size:.72rem;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color:var(--e-blue);
+  background:var(--field);
+  border-radius:999px;
+  padding:.3rem .8rem;
+}
+
+/* ---------- how-to ---------- */
+.note{
+  margin-top:1.25rem;
+  background:var(--field);
+  border:2px dashed var(--rule);
+  border-radius:20px;
+  padding:1.1rem 1.25rem;
+  display:flex;
+  flex-direction:column;
+  gap:.5rem;
+}
+.note p{margin:0;color:var(--ink-soft);font-size:.98rem}
+.note strong{color:var(--ink)}
+
+/* ---------- section cards ---------- */
+.card{
+  margin-top:1.5rem;
+  border-radius:26px;
+  padding:clamp(1.25rem,4.5vw,2rem);
+  box-shadow:var(--shadow);
+  border:2px solid;
+}
+.t-blue{background:var(--c-blue);border-color:var(--e-blue)}
+.t-butter{background:var(--c-butter);border-color:var(--e-butter)}
+.t-mint{background:var(--c-mint);border-color:var(--e-mint)}
+.t-blush{background:var(--c-blush);border-color:var(--e-blush)}
+.t-blue .ico{color:var(--e-blue)} .t-butter .ico{color:var(--e-butter)}
+.t-mint .ico{color:var(--e-mint)} .t-blush .ico{color:var(--e-blush)}
+.t-blue .eyebrow{color:var(--e-blue)} .t-butter .eyebrow{color:var(--e-butter)}
+.t-mint .eyebrow{color:var(--e-mint)} .t-blush .eyebrow{color:var(--e-blush)}
+.t-blue .num{background:var(--e-blue)} .t-butter .num{background:var(--e-butter)}
+.t-mint .num{background:var(--e-mint)} .t-blush .num{background:var(--e-blush)}
+.t-blue textarea:focus{border-color:var(--e-blue);box-shadow:0 0 0 4px color-mix(in srgb,var(--e-blue) 20%,transparent)}
+.t-butter textarea:focus{border-color:var(--e-butter);box-shadow:0 0 0 4px color-mix(in srgb,var(--e-butter) 22%,transparent)}
+.t-mint textarea:focus{border-color:var(--e-mint);box-shadow:0 0 0 4px color-mix(in srgb,var(--e-mint) 20%,transparent)}
+.t-blush textarea:focus{border-color:var(--e-blush);box-shadow:0 0 0 4px color-mix(in srgb,var(--e-blush) 22%,transparent)}
+
+.card-top{display:flex;align-items:center;gap:.9rem}
+.ico{
+  flex:0 0 auto;
+  width:3rem;height:3rem;
+  background:var(--field);
+  border-radius:16px;
+  display:grid;place-items:center;
+}
+.ico svg{width:1.75rem;height:1.75rem}
+.card-titles{display:flex;flex-direction:column;gap:.1rem;min-width:0}
+.eyebrow{
+  font-family:"Bricolage Grotesque",sans-serif;
+  font-weight:700;font-size:.7rem;
+  letter-spacing:.16em;text-transform:uppercase;
+}
+h2{
+  font-family:"Bricolage Grotesque","Helvetica Neue",Arial,sans-serif;
+  font-weight:700;
+  font-size:clamp(1.4rem,4.5vw,1.85rem);
+  line-height:1.1;letter-spacing:-.015em;margin:0;text-wrap:balance;
+}
+.lede{margin:.9rem 0 0;color:var(--ink-soft);font-size:1rem}
+
+/* ---------- questions ---------- */
+.qs{display:flex;flex-direction:column;gap:1.35rem;margin-top:1.4rem}
+.qa{display:flex;flex-direction:column;gap:.4rem}
+label{display:flex;gap:.65rem;align-items:flex-start;cursor:pointer;font-weight:600;line-height:1.4}
+.num{
+  flex:0 0 auto;
+  width:1.55rem;height:1.55rem;
+  border-radius:9px;
+  color:#fff;
+  font-family:"Bricolage Grotesque",sans-serif;
+  font-weight:700;font-size:.78rem;
+  display:grid;place-items:center;
+  margin-top:.1rem;
+  font-variant-numeric:tabular-nums;
+}
+:root[data-theme="dark"] .num,
+:root[data-theme="dark"] .key b,
+:root[data-theme="dark"] .bx:has(input:checked){color:#0E1725}
+.qt{min-width:0}
+.hint{
+  margin:0 0 0 2.2rem;
+  font-size:.9rem;font-style:italic;
+  color:var(--ink-faint);line-height:1.4;
+}
+textarea{
+  margin-left:2.2rem;
+  font-family:inherit;font-size:1rem;line-height:1.55;
+  color:var(--ink);
+  background:var(--field);
+  border:2px solid transparent;
+  border-radius:14px;
+  padding:.65rem .8rem;
+  resize:none;
+  overflow:hidden;
+  min-height:3rem;
+  outline:none;
+  transition:border-color .12s ease, box-shadow .12s ease;
+}
+textarea::placeholder{color:var(--ink-faint)}
+
+/* ---------- sort grid ---------- */
+.key{
+  margin-top:1.3rem;
+  display:flex;flex-wrap:wrap;gap:.45rem 1.4rem;
+  background:var(--field);border-radius:16px;padding:.9rem 1.1rem;
+}
+.key div{display:flex;align-items:center;gap:.5rem;font-size:.9rem;color:var(--ink-soft)}
+.key b{
+  font-family:"Bricolage Grotesque",sans-serif;
+  width:1.5rem;height:1.5rem;border-radius:8px;
+  background:var(--e-blue);color:#fff;
+  display:grid;place-items:center;font-size:.75rem;
+}
+ul.parts{list-style:none;margin:1rem 0 0;padding:0;display:flex;flex-direction:column;gap:.35rem}
+ul.parts li{
+  display:flex;align-items:center;justify-content:space-between;gap:.8rem;
+  background:var(--field);border-radius:14px;padding:.5rem .6rem .5rem .9rem;
+}
+.part{font-size:.98rem;min-width:0}
+.boxes{display:flex;gap:.35rem;flex:0 0 auto}
+.bx{
+  position:relative;
+  width:2rem;height:2rem;
+  border:2px solid var(--rule);border-radius:10px;
+  display:grid;place-items:center;
+  font-family:"Bricolage Grotesque",sans-serif;
+  font-weight:700;font-size:.75rem;color:var(--ink-faint);
+  cursor:pointer;user-select:none;
+  transition:background .12s ease,color .12s ease,border-color .12s ease;
+}
+.bx span{pointer-events:none}
+.bx input{position:absolute;inset:0;margin:0;opacity:0;cursor:pointer}
+.bx:has(input:checked){background:var(--e-blue);border-color:var(--e-blue);color:#fff}
+.bx:has(input:focus-visible){box-shadow:0 0 0 4px color-mix(in srgb,var(--e-blue) 25%,transparent)}
+
+/* ---------- sticky send bar ---------- */
+.bar{
+  position:fixed;left:0;right:0;bottom:0;
+  background:color-mix(in srgb,var(--paper) 88%,transparent);
+  backdrop-filter:blur(10px);
+  border-top:2px solid var(--rule);
+  padding:.75rem clamp(1rem,4vw,1.5rem);
+  z-index:10;
+}
+.bar-in{
+  max-width:44rem;margin:0 auto;
+  display:flex;align-items:center;gap:1rem;justify-content:space-between;
+}
+.prog{display:flex;flex-direction:column;gap:.3rem;flex:1 1 auto;min-width:0}
+.prog span{font-size:.82rem;color:var(--ink-soft);font-weight:600}
+.track{height:.4rem;background:var(--rule);border-radius:999px;overflow:hidden}
+.fill{height:100%;width:0;background:var(--blue);border-radius:999px;transition:width .25s ease}
+.send{
+  flex:0 0 auto;
+  font-family:"Bricolage Grotesque",sans-serif;
+  font-weight:700;font-size:1rem;
+  color:#fff;background:var(--blue-deep);
+  border:none;border-radius:999px;
+  padding:.75rem 1.6rem;cursor:pointer;
+  transition:transform .12s ease, background .12s ease;
+}
+:root[data-theme="dark"] .send{color:#0E1725}
+.send:hover{background:var(--blue)}
+.send:active{transform:translateY(1px)}
+.send:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
+
+.foot{margin-top:1.6rem;text-align:center;color:var(--ink-faint);font-size:.9rem}
+.foot em{font-style:italic}
+
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]) .num{color:#0E1725}
+  :root:not([data-theme="light"]) .key b{color:#0E1725}
+  :root:not([data-theme="light"]) .bx:has(input:checked){color:#0E1725}
+  :root:not([data-theme="light"]) .send{color:#0E1725}
+}
+@media (max-width:32rem){
+  .hint,textarea{margin-left:0}
+  ul.parts li{flex-wrap:wrap}
+  .send{padding:.7rem 1.15rem;font-size:.95rem}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *{transition:none!important}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="hero">
+    <div class="hero-deco"><i></i><i></i><i></i></div>
+    <span class="tag">For the mom-to-be</span>
+    <h1>Before we plan <em>a thing</em></h1>
+    <p>Fifty-two questions about your shower, so the day we throw is the one you'd have thrown yourself.</p>
+  </header>
+
+  <div class="note">
+    <p><strong>How this works:</strong> type your answers in, hit send at the bottom, and they land in my inbox. Nothing to print, nothing to mail back.</p>
+    <p><strong>Skip anything you don't care about.</strong> A blank is an answer too — it tells me not to spend energy there. And be honest about the nos; the whole point of asking is so you don't have to be polite about it later.</p>
+  </div>
+
+  <form id="form" action="https://formsubmit.co/katehuelse@gmail.com" method="POST">
+    <input type="hidden" name="_subject" value="Baby shower questionnaire — her answers">
+    <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="https://khuelse149.github.io/baby-shower-questions/thanks.html">
+    <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+    <div class="qa" style="margin-top:1.5rem">
+      <label for="who"><span class="num" style="background:var(--blue)">✻</span><span class="qt">First — who are you? (so I know whose answers these are)</span></label>
+      <input id="who" name="00. Your name" type="text" placeholder="Your name" style="margin-left:2.2rem;font-family:inherit;font-size:1rem;color:var(--ink);background:var(--field);border:2px solid var(--rule);border-radius:14px;padding:.65rem .8rem;outline:none">
+    </div>
+
+  <section class="card t-blue">
+    <div class="card-top">
+      <span class="ico"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M24 39s-13-8.4-13-17a7.5 7.5 0 0 1 13-5 7.5 7.5 0 0 1 13 5c0 8.6-13 17-13 17Z"/></svg></span>
+      <div class="card-titles"><span class="eyebrow">Part one</span><h2>The feeling</h2></div>
+    </div>
+    <p class="lede">Start here even if you have no idea about details. If I get this part right, the rest follows.</p>
+    <div class="qs">
+      <div class="qa">
+        <label for="q1"><span class="num">1</span><span class="qt">When you picture the shower and it&#x27;s going well — what are you actually doing in that picture?</span></label>
+        <p class="hint">Sitting in one chair talking to people? Opening gifts? Eating? Outside?</p>
+        <textarea id="q1" name="01. When you picture the shower and it&#x27;s going well — what are you actually doing in that picture?" rows="2" placeholder="Type here…"></textarea>
+      </div>
+      <div class="qa">
+        <label for="q2"><span class="num">2</span><span class="qt">Three words for how you want the day to feel.</span></label>
+        <p class="hint">Cozy, loud, elegant, low-key, silly, sacred, brunchy — anything.</p>
+        <textarea id="q2" name="02. Three words for how you want the day to feel." rows="2" placeholder="Type here…"></textarea>
+      </div>
+      <div class="qa">
+        <label for="q3"><span class="num">3</span><span class="qt">Is this a party, a gathering, or a ritual?</span></label>
+        <p class="hint">They&#x27;re different rooms. Some people want a celebration; some want to be blessed and fussed over quietly.</p>
+        <textarea id="q3" name="03. Is this a party, a gathering, or a ritual?" rows="2" placeholder="Type here…"></textarea>
+      </div>
+      <div class="qa">
+        <label for="q4"><span class="num">4</span><span class="qt">Have you been to a shower you loved? What made it good?</span></label>
+        <textarea id="q4" name="04. Have you been to a shower you loved? What made it good?" rows="2" placeholder="Type here…"></textarea>
+      </div>
+      <div class="qa">
+        <label for="q5"><span class="num">5</span><span class="qt">Been to one you hated? What made it bad?</span></label>
+        <p class="hint">Genuinely the most useful question on here. Be mean.</p>
+        <textarea id="q5" name="05. Been to one you hated? What made it bad?" rows="2" placeholder="Type here…"></textarea>
+      </div>
+      <div class="qa">
+        <label for="q6"><span class="num">6</span><span class="qt">How much do you want to be the center of attention — full spotlight, or somewhere in the middle of it all?</span></label>
+        <textarea id="q6" name="06. How much do you want to be the center of attention — full spotlight, or somewhere in the middle of it all?" rows="2" placeholder="Type here…"></textarea>
+      </div>
+    </div>
+  </section>
+
+  <section class="card t-butter">
+    <div class="card-top">
+      <span class="ico"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="17" r="6"/><circle cx="32" cy="20" r="5"/><path d="M8 38c0-5.5 4.5-10 10-10s10 4.5 10 10"/><path d="M30 29c5 0 9 4 9 9"/></svg></span>
+      <div class="card-titles"><span class="eyebrow">Part two</span><h2>Who&#x27;s in the room</h2></div>
+    </div>
+    <p class="lede">The guest list shapes the day more than the decor does.</p>
+    <div class="qs">
+      <div class="qa">
+        <label for="q7"><span class="num">7</span><span class="qt">Roughly how many people? What&#x27;s the number where it stops feeling good?</span></label>
+        <textarea id="q7" name="07. Roughly how many people? What&#x27;s the number where it stops feeling good?" rows="2" placeholder="Type here…"></textarea>
+      </div>
+      <div class="qa">
+        <label for="q8"><span class="num">8</span><span class="qt">Who absolutely has to be there?</span></label>
+        <textarea id="q8" name="08. Who absolutely has to be there?" rows="2" placeholder="Type here…"></textarea>
+      </div>
+      <div class="qa">
+        <label for="q9"><span class="num">9</span><span class="qt">Anyone you&#x27;d rather I quietly didn&#x27;t invite — or who shouldn&#x27;t be seated near each other?</span></label>
+        <p class="hint">This stays between us. No explanation needed.</p>
+        <textarea id="q9" name="09. Anyone you&#x27;d rather I quietly didn&#x27;t invite — or who shouldn&#x27;t be seated near each other?" rows="2" placeholder="Type here…"></textarea>
+      </div>
+      <div class="qa">
+        <label for="q10"><span class="num">10</span><span class="qt">Partners and men invited, or women and close friends only?</span></label>
+        <textarea id="q10" name="10. Partners and men invited, or women and close friends only?" rows="2" placeholder="Type here…"></textarea>
+      </div>
+      <div class="qa">
+        <label for="q11"><span class="num">11</span><span class="qt">Kids: welcome, or a break from kids?</span></label>
+        <textarea id="q11" name="11. Kids: welcome, or a break from kids?" rows="2" placeholder="Type here…"></textarea>
+      </div>
+      <div class="qa">
+        <label for="q12"><span class="num">12</span><span class="qt">Anyone far away we should set up a video call for?</span></label>
+        <textarea id="q12" name="12. Anyone far away we should set up a video call for?" rows="2" placeholder="Type here…"></textarea>
+      </div>
+      <div class="qa">
+        <label for="q13"><span class="num">13</span><span class="qt">Is anyone else planning something for you, so we don&#x27;t double up or compete for dates?</span></label>
+        <textarea id="q13" name="13. Is anyone else planning something for you, so we don&#x27;t double up or compete for dates?" rows="2" placeholder="Type here…"></textarea>
+      </div>
+    </div>
+  </section>
+
+  <section class="card t-mint">
+    <div class="card-top">
+      <span class="ico"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M24 41s12-11 12-19a12 12 0 1 0-24 0c0 8 12 19 12 19Z"/><circle cx="24" cy="21" r="4.5"/></svg></span>
+      <div class="card-titles"><span class="eyebrow">Part three</span><h2>When and where</h2></div>
+    </div>
+    <div class="qs">
+      <div class="qa">
+        <label for="q14"><span class="num">14</span><span class="qt">How far along do you want to be? Some people want a buffer before the due date; some want it close.</span></label>
+        <textarea id="q14" name="14. How far along do you want to be? Some people want a buffer before the due date; some want it close." rows="2" placeholder="Type here…"></textarea>
+      </div>
+      <div class="qa">
+        <label for="q15"><span class="num">15</span><span class="qt">Dates that are already out.</span></label>
+        <textarea id="q15" name="15. Dates that are already out." rows="2" placeholder="Type here…"></textarea>
+      </div>
+      <div class="qa">
+        <label for="q16"><span class="num">16</span><span class="qt">Best time of day for your body right now — morning, early afternoon, evening?</span></label>
+        <textarea id="q16" name="16. Best time of day for your body right now — morning, early afternoon, evening?" rows="2" placeholder="Type here…"></textarea>
+      </div>
+      <div class="qa">
+        <label for="q17"><span class="num">17</span><span class="qt">How long before you&#x27;d want to be able to leave? Two hours? Three?</span></label>
+        <p class="hint">I&#x27;ll build the schedule around this, and give you a clean exit.</p>
+        <textarea id="q17" name="17. How long before you&#x27;d want to be able to leave? Two hours? Three?" rows="2" placeholder="Type here…"></textarea>
+      </div>
+      <div class="qa">
+        <label for="q18"><span class="num">18</span><span class="qt">Home, someone else&#x27;s home, a restaurant, a rented space, outdoors?</span></label>
+        <textarea id="q18" name="18. Home, someone else&#x27;s home, a restaurant, a rented space, outdoors?" rows="2" placeholder="Type here…"></textarea>
+      </div>
+      <div class="qa">
+        <label for="q19"><span class="num">19</span><span class="qt">If it&#x27;s at your place — does that sound comforting or exhausting?</span></label>
+        <textarea id="q19" name="19. If it&#x27;s at your place — does that sound comforting or exhausting?" rows="2" placeholder="Type here…"></textarea>
+      </div>
+    </div>
+  </section>
+
+  <section class="card t-blush">
+    <div class="card-top">
+      <span class="ico"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M24 8a16 16 0 1 0 0 32c2.5 0 3.5-1.6 3.5-3 0-2.6-2-3-2-5 0-1.7 1.4-3 3.2-3H33a7 7 0 0 0 7-7c0-8-7.2-14-16-14Z"/><circle cx="17" cy="18" r="2"/><circle cx="25" cy="15" r="2"/><circle cx="32" cy="20" r="2"/></svg></span>
+      <div class="card-titles"><span class="eyebrow">Part four</span><h2>How it looks</h2></div>
+    </div>
+    <p class="lede">Answer as much or as little as you want. “You pick” is a completely valid response to all of these.</p>
+    <div class="qs">
+      <div class="qa">
+        <label for="q20"><span class="num">20</span><span class="qt">How do you feel about blue-everything?</span></label>
+        <p class="hint">Some people want the full baby-boy theme, some want anything but.</p>
+        <textarea id="q20" name="20. How do you feel about blue-everything?" rows="2" placeholder="Type here…"></textarea>
+      </div>
+      <div class="qa">
+        <label for="q21"><span class="num">21</span><span class="qt">Colors you love. Colors you&#x27;d hate to be surrounded by.</span></label>
+        <textarea id="q21" name="21. Colors you love. Colors you&#x27;d hate to be surrounded by." rows="2" placeholder="Type here…"></textarea>
+      </div>
+      <div class="qa">
+        <label for="q22"><span class="num">22</span><span class="qt">Any theme, or no theme?</span></label>
+        <p class="hint">Also fine: a mood instead of a theme — “garden,” “old library,” “citrus.”</p>
+        <textarea id="q22" name="22. Any theme, or no theme?" rows="2" placeholder="Type here…"></textarea>
+      </div>
+      <div class="qa">
+        <label for="q23"><span class="num">23</span><span class="qt">Flowers — yes, and which ones? Or would you rather the money went elsewhere?</span></label>
+        <textarea id="q23" name="23. Flowers — yes, and which ones? Or would you rather the money went elsewhere?" rows="2" placeholder="Type here…"></textarea>
+      </div>
+      <div class="qa">
+        <label for="q24"><span class="num">24</span><span class="qt">Balloons, banners, a balloon arch: delightful or tacky, in your opinion?</span></label>
+        <textarea id="q24" name="24. Balloons, banners, a balloon arch: delightful or tacky, in your opinion?" rows="2" placeholder="Type here…"></textarea>
+      </div>
+      <div class="qa">
+        <label for="q25"><span class="num">25</span><span class="qt">Anything you&#x27;d want to keep afterward — a wreath, a print, a plant?</span></label>
+        <textarea id="q25" name="25. Anything you&#x27;d want to keep afterward — a wreath, a print, a plant?" rows="2" placeholder="Type here…"></textarea>
+      </div>
+      <div class="qa">
+        <label for="q26"><span class="num">26</span><span class="qt">Do you want a dedicated chair or spot that&#x27;s yours, or does that feel like a throne?</span></label>
+        <textarea id="q26" name="26. Do you want a dedicated chair or spot that&#x27;s yours, or does that feel like a throne?" rows="2" placeholder="Type here…"></textarea>
+      </div>
+      <div class="qa">
+        <label for="q27"><span class="num">27</span><span class="qt">Anything you&#x27;ll be wearing that I should know about, so nothing clashes in photos?</span></label>
+        <textarea id="q27" name="27. Anything you&#x27;ll be wearing that I should know about, so nothing clashes in photos?" rows="2" placeholder="Type here…"></textarea>
+      </div>
+    </div>
+  </section>
+
+  <section class="card t-blue">
+    <div class="card-top">
+      <span class="ico"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 40h28V26a4 4 0 0 0-4-4H14a4 4 0 0 0-4 4v14Z"/><path d="M10 31c3 0 3 2.5 7 2.5S20 31 24 31s3 2.5 7 2.5S34 31 38 31"/><path d="M24 22v-5"/><path d="M24 12c1.8 1.6 1.8 3.4 0 5-1.8-1.6-1.8-3.4 0-5Z"/></svg></span>
+      <div class="card-titles"><span class="eyebrow">Part five</span><h2>Food and drink</h2></div>
+    </div>
+    <div class="qs">
+      <div class="qa">
+        <label for="q28"><span class="num">28</span><span class="qt">What are you actually craving right now? What are you completely off?</span></label>
+        <p class="hint">Smells count. If a food is currently unbearable, tell me and it will not be in the building.</p>
+        <textarea id="q28" name="28. What are you actually craving right now? What are you completely off?" rows="2" placeholder="Type here…"></textarea>
+      </div>
+      <div class="qa">
+        <label for="q29"><span class="num">29</span><span class="qt">Full meal, brunch, or grazing and desserts?</span></label>
+        <textarea id="q29" name="29. Full meal, brunch, or grazing and desserts?" rows="2" placeholder="Type here…"></textarea>
+      </div>
+      <div class="qa">
+        <label for="q30"><span class="num">30</span><span class="qt">Cake, or something else? Any flavor you&#x27;d be sad not to have?</span></label>
+        <textarea id="q30" name="30. Cake, or something else? Any flavor you&#x27;d be sad not to have?" rows="2" placeholder="Type here…"></textarea>
+      </div>
+      <div class="qa">
+        <label for="q31"><span class="num">31</span><span class="qt">Alcohol for guests: fine, or would you rather it be a dry party?</span></label>
+        <textarea id="q31" name="31. Alcohol for guests: fine, or would you rather it be a dry party?" rows="2" placeholder="Type here…"></textarea>
+      </div>
+      <div class="qa">
+        <label for="q32"><span class="num">32</span><span class="qt">Allergies and dietary needs — yours and anyone else&#x27;s you know of.</span></label>
+        <textarea id="q32" name="32. Allergies and dietary needs — yours and anyone else&#x27;s you know of." rows="2" placeholder="Type here…"></textarea>
+      </div>
+    </div>
+  </section>
+
+  <section class="card t-butter">
+    <div class="card-top">
+      <span class="ico"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 39 20 15l13 13-22 11Z"/><path d="M28 10c1.5 1.5 1.5 3.5 0 5"/><path d="M35 17c2-2 4.5-2 6.5 0"/><path d="M36 8l1.5 1.5"/></svg></span>
+      <div class="card-titles"><span class="eyebrow">Part six</span><h2>What we actually do</h2></div>
+    </div>
+    <p class="lede">Games are the single most divisive part of a shower. I&#x27;d rather know now.</p>
+    <div class="qs">
+      <div class="qa">
+        <label for="q33"><span class="num">33</span><span class="qt">Games: love them, tolerate one or two, or absolutely not?</span></label>
+        <textarea id="q33" name="33. Games: love them, tolerate one or two, or absolutely not?" rows="2" placeholder="Type here…"></textarea>
+      </div>
+      <div class="qa">
+        <label for="q34"><span class="num">34</span><span class="qt">Any specific game you&#x27;ve seen and want — or one you&#x27;d walk out on?</span></label>
+        <p class="hint">Guess-the-belly-size and the melted-candy-bar diaper game are the usual offenders.</p>
+        <textarea id="q34" name="34. Any specific game you&#x27;ve seen and want — or one you&#x27;d walk out on?" rows="2" placeholder="Type here…"></textarea>
+      </div>
+      <div class="qa">
+        <label for="q35"><span class="num">35</span><span class="qt">Opening gifts in front of everyone, opening a few, or opening them later in private?</span></label>
+        <textarea id="q35" name="35. Opening gifts in front of everyone, opening a few, or opening them later in private?" rows="2" placeholder="Type here…"></textarea>
+      </div>
+      <div class="qa">
+        <label for="q36"><span class="num">36</span><span class="qt">Would you like a moment where people say something to you or to the baby — toasts, advice cards, blessings — or does that make you want to sink into the floor?</span></label>
+        <textarea id="q36" name="36. Would you like a moment where people say something to you or to the baby — toasts, advice cards, blessings — or does that make you want to sink into the floor?" rows="2" placeholder="Type here…"></textarea>
+      </div>
+      <div class="qa">
+        <label for="q37"><span class="num">37</span><span class="qt">Any family, cultural, or religious traditions we should build in?</span></label>
+        <textarea id="q37" name="37. Any family, cultural, or religious traditions we should build in?" rows="2" placeholder="Type here…"></textarea>
+      </div>
+      <div class="qa">
+        <label for="q38"><span class="num">38</span><span class="qt">Something to make and take home — a onesie, a bead, a recipe card — or is that fussy?</span></label>
+        <textarea id="q38" name="38. Something to make and take home — a onesie, a bead, a recipe card — or is that fussy?" rows="2" placeholder="Type here…"></textarea>
+      </div>
+    </div>
+  </section>
+
+  <section class="card t-mint">
+    <div class="card-top">
+      <span class="ico"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 21h30v18H9z"/><path d="M9 21h30v-6H9z"/><path d="M24 15v24"/><path d="M24 15c-4 0-8-1-8-4.5S20 8 24 15Zm0 0c4 0 8-1 8-4.5S28 8 24 15Z"/></svg></span>
+      <div class="card-titles"><span class="eyebrow">Part seven</span><h2>Gifts, photos, and the fine print</h2></div>
+    </div>
+    <div class="qs">
+      <div class="qa">
+        <label for="q39"><span class="num">39</span><span class="qt">Registry — is there one, and do you want it shared on the invite?</span></label>
+        <textarea id="q39" name="39. Registry — is there one, and do you want it shared on the invite?" rows="2" placeholder="Type here…"></textarea>
+      </div>
+      <div class="qa">
+        <label for="q40"><span class="num">40</span><span class="qt">Anything you specifically need, or specifically already have too much of?</span></label>
+        <textarea id="q40" name="40. Anything you specifically need, or specifically already have too much of?" rows="2" placeholder="Type here…"></textarea>
+      </div>
+      <div class="qa">
+        <label for="q41"><span class="num">41</span><span class="qt">Would you rather people bring a book instead of a card, give to a fund, or nothing at all?</span></label>
+        <textarea id="q41" name="41. Would you rather people bring a book instead of a card, give to a fund, or nothing at all?" rows="2" placeholder="Type here…"></textarea>
+      </div>
+      <div class="qa">
+        <label for="q42"><span class="num">42</span><span class="qt">Photos: real photographer, phones only, or please keep it minimal?</span></label>
+        <textarea id="q42" name="42. Photos: real photographer, phones only, or please keep it minimal?" rows="2" placeholder="Type here…"></textarea>
+      </div>
+      <div class="qa">
+        <label for="q43"><span class="num">43</span><span class="qt">Are you okay with photos of you being posted, or would you rather they stay private?</span></label>
+        <textarea id="q43" name="43. Are you okay with photos of you being posted, or would you rather they stay private?" rows="2" placeholder="Type here…"></textarea>
+      </div>
+      <div class="qa">
+        <label for="q44"><span class="num">44</span><span class="qt">Anything about the pregnancy you&#x27;d rather not discuss or be asked about that day?</span></label>
+        <p class="hint">Birth plans, feeding plans, names, due dates, previous losses — I can head questions off before they reach you.</p>
+        <textarea id="q44" name="44. Anything about the pregnancy you&#x27;d rather not discuss or be asked about that day?" rows="2" placeholder="Type here…"></textarea>
+      </div>
+      <div class="qa">
+        <label for="q45"><span class="num">45</span><span class="qt">Belly touching: fine, or a hard no I should enforce for you?</span></label>
+        <textarea id="q45" name="45. Belly touching: fine, or a hard no I should enforce for you?" rows="2" placeholder="Type here…"></textarea>
+      </div>
+    </div>
+  </section>
+
+  <section class="card t-blush">
+    <div class="card-top">
+      <span class="ico"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 15h22v14a11 11 0 0 1-22 0V15Z"/><path d="M33 19h3.5a4.5 4.5 0 0 1 0 9H33"/><path d="M14 39h20"/></svg></span>
+      <div class="card-titles"><span class="eyebrow">Part eight</span><h2>Comfort, honestly</h2></div>
+    </div>
+    <p class="lede">You&#x27;ll be growing a human at this party. This part matters more than the flowers.</p>
+    <div class="qs">
+      <div class="qa">
+        <label for="q46"><span class="num">46</span><span class="qt">How&#x27;s your energy and how&#x27;s the nausea, realistically, on an average day right now?</span></label>
+        <textarea id="q46" name="46. How&#x27;s your energy and how&#x27;s the nausea, realistically, on an average day right now?" rows="2" placeholder="Type here…"></textarea>
+      </div>
+      <div class="qa">
+        <label for="q47"><span class="num">47</span><span class="qt">Do you run hot or cold? I&#x27;ll set the room for you, not for the guests.</span></label>
+        <textarea id="q47" name="47. Do you run hot or cold? I&#x27;ll set the room for you, not for the guests." rows="2" placeholder="Type here…"></textarea>
+      </div>
+      <div class="qa">
+        <label for="q48"><span class="num">48</span><span class="qt">Anything you need nearby — a specific snack, ginger, a fan, a footstool, a room you can disappear into for ten minutes?</span></label>
+        <textarea id="q48" name="48. Anything you need nearby — a specific snack, ginger, a fan, a footstool, a room you can disappear into for ten minutes?" rows="2" placeholder="Type here…"></textarea>
+      </div>
+      <div class="qa">
+        <label for="q49"><span class="num">49</span><span class="qt">Is there one person who should be your buffer, so you can hand off conversations when you&#x27;re done?</span></label>
+        <textarea id="q49" name="49. Is there one person who should be your buffer, so you can hand off conversations when you&#x27;re done?" rows="2" placeholder="Type here…"></textarea>
+      </div>
+      <div class="qa">
+        <label for="q50"><span class="num">50</span><span class="qt">What&#x27;s our signal if you want the whole thing to wrap up early?</span></label>
+        <p class="hint">Pick one. I&#x27;ll act on it, no questions, no hurt feelings.</p>
+        <textarea id="q50" name="50. What&#x27;s our signal if you want the whole thing to wrap up early?" rows="2" placeholder="Type here…"></textarea>
+      </div>
+    </div>
+  </section>
+
+  <section class="card t-blue">
+    <div class="card-top">
+      <span class="ico"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 15h18M20 24h18M20 33h18"/><path d="m10 15 2 2 4-4M10 24l2 2 4-4M10 33l2 2 4-4"/></svg></span>
+      <div class="card-titles"><span class="eyebrow">Part nine</span><h2>Sort the parts</h2></div>
+    </div>
+    <p class="lede">Everything a shower can contain. Tap a box for each one and I&#x27;ll build the day from the M column out, add the L column if there&#x27;s budget and time, and drop the rest without a second thought.</p>
+    <div class="key">
+      <div><b>M</b> Must have — it's not my shower without it</div>
+      <div><b>L</b> Would love — if it's easy</div>
+      <div><b>S</b> Skip it — actively don't want this</div>
+    </div>
+    <ul class="parts">
+        <li><span class="part">A real sit-down meal</span><span class="boxes"><label class="bx"><span>M</span><input type="radio" name="Sort — A real sit-down meal" value="Must have" aria-label="A real sit-down meal: Must have"></label><label class="bx"><span>L</span><input type="radio" name="Sort — A real sit-down meal" value="Would love" aria-label="A real sit-down meal: Would love"></label><label class="bx"><span>S</span><input type="radio" name="Sort — A real sit-down meal" value="Skip it" aria-label="A real sit-down meal: Skip it"></label></span></li>
+        <li><span class="part">Cake or a dessert table</span><span class="boxes"><label class="bx"><span>M</span><input type="radio" name="Sort — Cake or a dessert table" value="Must have" aria-label="Cake or a dessert table: Must have"></label><label class="bx"><span>L</span><input type="radio" name="Sort — Cake or a dessert table" value="Would love" aria-label="Cake or a dessert table: Would love"></label><label class="bx"><span>S</span><input type="radio" name="Sort — Cake or a dessert table" value="Skip it" aria-label="Cake or a dessert table: Skip it"></label></span></li>
+        <li><span class="part">Fresh flowers</span><span class="boxes"><label class="bx"><span>M</span><input type="radio" name="Sort — Fresh flowers" value="Must have" aria-label="Fresh flowers: Must have"></label><label class="bx"><span>L</span><input type="radio" name="Sort — Fresh flowers" value="Would love" aria-label="Fresh flowers: Would love"></label><label class="bx"><span>S</span><input type="radio" name="Sort — Fresh flowers" value="Skip it" aria-label="Fresh flowers: Skip it"></label></span></li>
+        <li><span class="part">Balloons and banners</span><span class="boxes"><label class="bx"><span>M</span><input type="radio" name="Sort — Balloons and banners" value="Must have" aria-label="Balloons and banners: Must have"></label><label class="bx"><span>L</span><input type="radio" name="Sort — Balloons and banners" value="Would love" aria-label="Balloons and banners: Would love"></label><label class="bx"><span>S</span><input type="radio" name="Sort — Balloons and banners" value="Skip it" aria-label="Balloons and banners: Skip it"></label></span></li>
+        <li><span class="part">A themed color scheme</span><span class="boxes"><label class="bx"><span>M</span><input type="radio" name="Sort — A themed color scheme" value="Must have" aria-label="A themed color scheme: Must have"></label><label class="bx"><span>L</span><input type="radio" name="Sort — A themed color scheme" value="Would love" aria-label="A themed color scheme: Would love"></label><label class="bx"><span>S</span><input type="radio" name="Sort — A themed color scheme" value="Skip it" aria-label="A themed color scheme: Skip it"></label></span></li>
+        <li><span class="part">Printed invitations</span><span class="boxes"><label class="bx"><span>M</span><input type="radio" name="Sort — Printed invitations" value="Must have" aria-label="Printed invitations: Must have"></label><label class="bx"><span>L</span><input type="radio" name="Sort — Printed invitations" value="Would love" aria-label="Printed invitations: Would love"></label><label class="bx"><span>S</span><input type="radio" name="Sort — Printed invitations" value="Skip it" aria-label="Printed invitations: Skip it"></label></span></li>
+        <li><span class="part">Games</span><span class="boxes"><label class="bx"><span>M</span><input type="radio" name="Sort — Games" value="Must have" aria-label="Games: Must have"></label><label class="bx"><span>L</span><input type="radio" name="Sort — Games" value="Would love" aria-label="Games: Would love"></label><label class="bx"><span>S</span><input type="radio" name="Sort — Games" value="Skip it" aria-label="Games: Skip it"></label></span></li>
+        <li><span class="part">Opening gifts in front of everyone</span><span class="boxes"><label class="bx"><span>M</span><input type="radio" name="Sort — Opening gifts in front of everyone" value="Must have" aria-label="Opening gifts in front of everyone: Must have"></label><label class="bx"><span>L</span><input type="radio" name="Sort — Opening gifts in front of everyone" value="Would love" aria-label="Opening gifts in front of everyone: Would love"></label><label class="bx"><span>S</span><input type="radio" name="Sort — Opening gifts in front of everyone" value="Skip it" aria-label="Opening gifts in front of everyone: Skip it"></label></span></li>
+        <li><span class="part">Toasts, advice, or blessings out loud</span><span class="boxes"><label class="bx"><span>M</span><input type="radio" name="Sort — Toasts, advice, or blessings out loud" value="Must have" aria-label="Toasts, advice, or blessings out loud: Must have"></label><label class="bx"><span>L</span><input type="radio" name="Sort — Toasts, advice, or blessings out loud" value="Would love" aria-label="Toasts, advice, or blessings out loud: Would love"></label><label class="bx"><span>S</span><input type="radio" name="Sort — Toasts, advice, or blessings out loud" value="Skip it" aria-label="Toasts, advice, or blessings out loud: Skip it"></label></span></li>
+        <li><span class="part">A craft or make-and-take activity</span><span class="boxes"><label class="bx"><span>M</span><input type="radio" name="Sort — A craft or make-and-take activity" value="Must have" aria-label="A craft or make-and-take activity: Must have"></label><label class="bx"><span>L</span><input type="radio" name="Sort — A craft or make-and-take activity" value="Would love" aria-label="A craft or make-and-take activity: Would love"></label><label class="bx"><span>S</span><input type="radio" name="Sort — A craft or make-and-take activity" value="Skip it" aria-label="A craft or make-and-take activity: Skip it"></label></span></li>
+        <li><span class="part">A professional photographer</span><span class="boxes"><label class="bx"><span>M</span><input type="radio" name="Sort — A professional photographer" value="Must have" aria-label="A professional photographer: Must have"></label><label class="bx"><span>L</span><input type="radio" name="Sort — A professional photographer" value="Would love" aria-label="A professional photographer: Would love"></label><label class="bx"><span>S</span><input type="radio" name="Sort — A professional photographer" value="Skip it" aria-label="A professional photographer: Skip it"></label></span></li>
+        <li><span class="part">A guest book or keepsake to sign</span><span class="boxes"><label class="bx"><span>M</span><input type="radio" name="Sort — A guest book or keepsake to sign" value="Must have" aria-label="A guest book or keepsake to sign: Must have"></label><label class="bx"><span>L</span><input type="radio" name="Sort — A guest book or keepsake to sign" value="Would love" aria-label="A guest book or keepsake to sign: Would love"></label><label class="bx"><span>S</span><input type="radio" name="Sort — A guest book or keepsake to sign" value="Skip it" aria-label="A guest book or keepsake to sign: Skip it"></label></span></li>
+        <li><span class="part">Party favors for guests</span><span class="boxes"><label class="bx"><span>M</span><input type="radio" name="Sort — Party favors for guests" value="Must have" aria-label="Party favors for guests: Must have"></label><label class="bx"><span>L</span><input type="radio" name="Sort — Party favors for guests" value="Would love" aria-label="Party favors for guests: Would love"></label><label class="bx"><span>S</span><input type="radio" name="Sort — Party favors for guests" value="Skip it" aria-label="Party favors for guests: Skip it"></label></span></li>
+        <li><span class="part">Alcohol / a cocktail moment</span><span class="boxes"><label class="bx"><span>M</span><input type="radio" name="Sort — Alcohol / a cocktail moment" value="Must have" aria-label="Alcohol / a cocktail moment: Must have"></label><label class="bx"><span>L</span><input type="radio" name="Sort — Alcohol / a cocktail moment" value="Would love" aria-label="Alcohol / a cocktail moment: Would love"></label><label class="bx"><span>S</span><input type="radio" name="Sort — Alcohol / a cocktail moment" value="Skip it" aria-label="Alcohol / a cocktail moment: Skip it"></label></span></li>
+        <li><span class="part">A playlist and music</span><span class="boxes"><label class="bx"><span>M</span><input type="radio" name="Sort — A playlist and music" value="Must have" aria-label="A playlist and music: Must have"></label><label class="bx"><span>L</span><input type="radio" name="Sort — A playlist and music" value="Would love" aria-label="A playlist and music: Would love"></label><label class="bx"><span>S</span><input type="radio" name="Sort — A playlist and music" value="Skip it" aria-label="A playlist and music: Skip it"></label></span></li>
+        <li><span class="part">A speech from me</span><span class="boxes"><label class="bx"><span>M</span><input type="radio" name="Sort — A speech from me" value="Must have" aria-label="A speech from me: Must have"></label><label class="bx"><span>L</span><input type="radio" name="Sort — A speech from me" value="Would love" aria-label="A speech from me: Would love"></label><label class="bx"><span>S</span><input type="radio" name="Sort — A speech from me" value="Skip it" aria-label="A speech from me: Skip it"></label></span></li>
+        <li><span class="part">Family traditions or a ritual moment</span><span class="boxes"><label class="bx"><span>M</span><input type="radio" name="Sort — Family traditions or a ritual moment" value="Must have" aria-label="Family traditions or a ritual moment: Must have"></label><label class="bx"><span>L</span><input type="radio" name="Sort — Family traditions or a ritual moment" value="Would love" aria-label="Family traditions or a ritual moment: Would love"></label><label class="bx"><span>S</span><input type="radio" name="Sort — Family traditions or a ritual moment" value="Skip it" aria-label="Family traditions or a ritual moment: Skip it"></label></span></li>
+        <li><span class="part">Someone on video call from far away</span><span class="boxes"><label class="bx"><span>M</span><input type="radio" name="Sort — Someone on video call from far away" value="Must have" aria-label="Someone on video call from far away: Must have"></label><label class="bx"><span>L</span><input type="radio" name="Sort — Someone on video call from far away" value="Would love" aria-label="Someone on video call from far away: Would love"></label><label class="bx"><span>S</span><input type="radio" name="Sort — Someone on video call from far away" value="Skip it" aria-label="Someone on video call from far away: Skip it"></label></span></li>
+        <li><span class="part">A quiet room to escape to</span><span class="boxes"><label class="bx"><span>M</span><input type="radio" name="Sort — A quiet room to escape to" value="Must have" aria-label="A quiet room to escape to: Must have"></label><label class="bx"><span>L</span><input type="radio" name="Sort — A quiet room to escape to" value="Would love" aria-label="A quiet room to escape to: Would love"></label><label class="bx"><span>S</span><input type="radio" name="Sort — A quiet room to escape to" value="Skip it" aria-label="A quiet room to escape to: Skip it"></label></span></li>
+        <li><span class="part">Being surprised by any of it</span><span class="boxes"><label class="bx"><span>M</span><input type="radio" name="Sort — Being surprised by any of it" value="Must have" aria-label="Being surprised by any of it: Must have"></label><label class="bx"><span>L</span><input type="radio" name="Sort — Being surprised by any of it" value="Would love" aria-label="Being surprised by any of it: Would love"></label><label class="bx"><span>S</span><input type="radio" name="Sort — Being surprised by any of it" value="Skip it" aria-label="Being surprised by any of it: Skip it"></label></span></li>
+    </ul>
+  </section>
+
+  <section class="card t-butter">
+    <div class="card-top">
+      <span class="ico"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m24 9 4.6 9.6 10.4 1.5-7.5 7.4 1.8 10.5L24 33.1 14.7 38l1.8-10.5-7.5-7.4 10.4-1.5L24 9Z"/></svg></span>
+      <div class="card-titles"><span class="eyebrow">Part ten</span><h2>Last two</h2></div>
+    </div>
+    <div class="qs">
+      <div class="qa">
+        <label for="q51"><span class="num">51</span><span class="qt">If everything else fell apart and only one thing survived, what&#x27;s the one thing that would still make it feel like your shower?</span></label>
+        <textarea id="q51" name="51. If everything else fell apart and only one thing survived, what&#x27;s the one thing that would still make it feel like your shower?" rows="2" placeholder="Type here…"></textarea>
+      </div>
+      <div class="qa">
+        <label for="q52"><span class="num">52</span><span class="qt">Anything I haven&#x27;t asked about that&#x27;s on your mind?</span></label>
+        <textarea id="q52" name="52. Anything I haven&#x27;t asked about that&#x27;s on your mind?" rows="2" placeholder="Type here…"></textarea>
+      </div>
+    </div>
+  </section>
+    <p class="foot">That's everything. <em>I've got the rest.</em></p>
+
+    <div class="bar">
+      <div class="bar-in">
+        <div class="prog">
+          <span id="progText">0 of 52 answered</span>
+          <div class="track"><div class="fill" id="fill"></div></div>
+        </div>
+        <button class="send" type="submit">Send it over</button>
+      </div>
+    </div>
+  </form>
+
+</div>
+
+<script>
+(function(){
+  var form = document.getElementById('form');
+  var fill = document.getElementById('fill');
+  var ptxt = document.getElementById('progText');
+  var areas = form.querySelectorAll('textarea');
+  var KEY = 'shower-answers-v1';
+
+  function grow(t){ t.style.height = 'auto'; t.style.height = (t.scrollHeight + 2) + 'px'; }
+
+  function count(){
+    var done = 0;
+    areas.forEach(function(t){ if (t.value.trim()) done++; });
+    var pct = Math.round(done / areas.length * 100);
+    fill.style.width = pct + '%';
+    ptxt.textContent = done + ' of ' + areas.length + ' answered';
+  }
+
+  function save(){
+    var d = {};
+    form.querySelectorAll('textarea, input[type=text]').forEach(function(el){
+      if (el.name && el.name.charAt(0) !== '_' && el.value) d[el.name] = el.value;
+    });
+    form.querySelectorAll('input[type=radio]:checked').forEach(function(el){ d[el.name] = el.value; });
+    try { localStorage.setItem(KEY, JSON.stringify(d)); } catch (e) {}
+  }
+
+  function restore(){
+    var d;
+    try { d = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch (e) { return; }
+    Object.keys(d).forEach(function(k){
+      var el = form.querySelector('[name="' + CSS.escape(k) + '"]');
+      if (el && (el.tagName === 'TEXTAREA' || el.type === 'text')) { el.value = d[k]; }
+      else {
+        var r = form.querySelector('[name="' + CSS.escape(k) + '"][value="' + d[k] + '"]');
+        if (r) r.checked = true;
+      }
+    });
+  }
+
+  restore();
+  areas.forEach(function(t){ grow(t); t.addEventListener('input', function(){ grow(t); count(); save(); }); });
+  form.querySelectorAll('input[type=radio], input[type=text]').forEach(function(el){
+    el.addEventListener('change', save);
+  });
+  count();
+
+  form.addEventListener('submit', function(){
+    try { localStorage.removeItem(KEY); } catch (e) {}
+  });
+
+  window.addEventListener('beforeunload', save);
+})();
+</script>
+</body>
+</html>

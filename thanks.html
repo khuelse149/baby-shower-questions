@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Got It</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💙</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Nunito:wght@400;600&display=swap">
+<style>
+:root{
+  --paper:#F4F9FF;--ink:#12304E;--ink-soft:#4F6A88;--field:#FFFFFF;
+  --c-blue:#E1EFFC;--e-blue:#2F7FD1;--e-butter:#D9930C;--e-mint:#219877;--e-blush:#DE6650;
+  --shadow:0 2px 0 rgba(18,48,78,.06), 0 12px 28px -18px rgba(18,48,78,.5);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#0E1725;--ink:#E9F1FA;--ink-soft:#AFC3D9;--field:#1A2636;
+    --c-blue:#16283D;--e-blue:#7BB5EB;--e-butter:#E2B65F;--e-mint:#67C4A5;--e-blush:#ED9480;
+    --shadow:0 2px 0 rgba(0,0,0,.25), 0 14px 30px -20px #000;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0E1725;--ink:#E9F1FA;--ink-soft:#AFC3D9;--field:#1A2636;
+  --c-blue:#16283D;--e-blue:#7BB5EB;--e-butter:#E2B65F;--e-mint:#67C4A5;--e-blush:#ED9480;
+  --shadow:0 2px 0 rgba(0,0,0,.25), 0 14px 30px -20px #000;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;min-height:100vh;
+  background:var(--paper);color:var(--ink);
+  font-family:"Nunito","Helvetica Neue",Arial,sans-serif;font-size:17px;line-height:1.6;
+  display:grid;place-items:center;padding:1.25rem;
+}
+.card{
+  position:relative;overflow:hidden;
+  max-width:30rem;width:100%;
+  background:var(--c-blue);border:2px solid var(--e-blue);
+  border-radius:28px;padding:clamp(1.75rem,6vw,2.75rem);
+  box-shadow:var(--shadow);text-align:center;
+}
+.deco{position:absolute;inset:0;pointer-events:none}
+.deco i{position:absolute;display:block;border-radius:50%}
+.deco i:nth-child(1){width:90px;height:90px;background:var(--e-butter);opacity:.28;right:-24px;top:-28px}
+.deco i:nth-child(2){width:48px;height:48px;background:var(--e-mint);opacity:.3;left:-14px;bottom:-16px}
+.deco i:nth-child(3){width:22px;height:22px;background:var(--e-blush);opacity:.4;left:38px;top:26px}
+svg{position:relative;width:3.5rem;height:3.5rem;color:var(--e-blue);margin-bottom:.4rem}
+h1{
+  position:relative;
+  font-family:"Bricolage Grotesque","Helvetica Neue",Arial,sans-serif;
+  font-weight:800;font-size:clamp(1.9rem,7vw,2.6rem);line-height:1.05;
+  letter-spacing:-.02em;margin:0 0 .6rem;text-wrap:balance;
+}
+p{position:relative;margin:0;color:var(--ink-soft)}
+p + p{margin-top:.7rem}
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="deco"><i></i><i></i><i></i></div>
+    <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M24 40s-13-8.6-13-17.4A7.7 7.7 0 0 1 24 17a7.7 7.7 0 0 1 13 5.6C37 31.4 24 40 24 40Z"/>
+      <path d="m19 25 3.5 3.5L30 21"/>
+    </svg>
+    <h1>Got it — thank you</h1>
+    <p>Your answers just landed in my inbox. I'll take it from here.</p>
+    <p>You can close this tab and go put your feet up.</p>
+  </div>
+</body>
+</html>
